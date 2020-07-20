@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One&display=swap");
+
+body {
+  margin: 0;
+}
+.eyelogo {
+  height: 140px;
+  /* border: 3px solid rgb(212, 208, 208); */
+}
+
+.sajidalogo {
+  margin-top: 20px;
+  width: 650px;
+  height: 100px;
+}
+
+.sajida {
+  font-family: "Spartan";
+  font-size: 70px;
+  color: #e970b0;
+  text-shadow: 10px 20px 10px rgb(212, 208, 208);
+  transition: 0.3s;
+}
+
+.sajida:hover {
+  text-shadow: 10px 30px 10px #e970b0;
+}
+
+.laserhair {
+  font-size: 18px;
+  font-family: "Spartan";
+  color: gray;
+  text-shadow: 5px 10px 5px rgb(212, 208, 208);
+  text-align: end;
+  margin-right: 80px;
+}
+.alllogos {
+  display: flex;
+  justify-content: space-between;
+
+  /* border-bottom: 3px solid rgb(212, 208, 208); */
+}
+
+/* ............ contact bar........... */
+
+.contactBar {
+  font-family: "Spartan";
+  background-color: rgb(241, 161, 241);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 800;
+  display: flex;
+  height: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* ...............................navbar..................................... */
+
+.links {
+  font-family: "Spartan";
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: none;
+  background: none;
+  border: none;
+  transition: 0.2s;
+  color: rgb(88, 87, 87);
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.links:hover {
+  text-shadow: 3px 3px 3px #e970b0;
+  background-color: #e970b0;
+  color: white;
+}
+
+.allbtns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 3px solid #eea1ca;
+      box-shadow: 0px 3px 0px #eea1ca; */
+  background-color: #b6a2dd;
+}
+
+.pageheadingfacial {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  background-color: #f0cedf;
+  font-family: "Spartan";
+  padding: 50px;
+  color: white;
+  text-shadow: 10px 10px 2px #b6a2dd;
+}
+
+/* .......... dropdown buttons............. */
+
+/* Dropdown Button */
+.dropbtn {
+  font-family: "Spartan";
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: none;
+  background: none;
+  border: none;
+  transition: 0.2s;
+  color: rgb(88, 87, 87);
+  padding: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.dropbtn:hover {
+  color: white;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  font-family: "Spartan";
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: none;
+  background: none;
+  border: none;
+  transition: 0.2s;
+  color: rgb(88, 87, 87);
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e0dfdf;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-family: "Spartan";
+  outline: none;
+  border: none;
+  color: rgb(88, 87, 87);
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0;
+  padding: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(235, 175, 185);
+  color: white;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover {
+  background-color: #e970b0;
+  color: white;
+  transition: 0.3s;
+}
+
+/* .............. images and pink background... */
+.imagelaser {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
+  margin-left: 80px;
+  margin-top: 170px;
+  transition: 0.5s;
+  position: absolute;
+  box-shadow: 2px 0px 5px #b6a2dd;
+}
+
+.imagebackground {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 70px;
+  background-color: rgb(241, 239, 239);
+  background-color: #ecb6d3;
+}
+
+/* ........ prices for all .......... */
+
+.allpriceswrapper {
+  /* display: flex;
+  justify-content: space-between; */
+  /* padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px; */
+  margin-top: 40px;
+  height: 500px;
+  width: 50%;
+  background-color: rgb(241, 239, 239);
+  font-family: "Spartan";
+  box-shadow: 0px 10px 10px gray;
+}
+
+.priceheading {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(248, 158, 173);
+  margin-top: 8px;
+  padding-left: 100px;
+}
+
+.priceheading2 {
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(248, 158, 173);
+  margin-top: 8px;
+  text-align: center;
+}
+
+.eachprice {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: 0;
+}
+
+.textfont {
+  font-size: 17px;
+  margin-top: 0px;
+  border-bottom: 1px solid pink;
+}
+
+.hair_cutting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hair_colour {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ...... main service heading ........ */
+.service_heading {
+  margin-top: 150px;
+  margin-bottom: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 70px;
+  font-weight: 900;
+  font-family: "Spartan";
+  border-bottom: 4px solid pink;
+  color: rgb(247, 123, 123);
+  text-shadow: 10px 10px 2px #b6a2dd;
+}
+
+/* ......... bootom footer ............ */
+
+.footerwrapper {
+  margin-top: 50px;
+  width: 100%;
+  height: 350px;
+  display: flex;
+}
+
+/* ----------------------------opening times ------------------------------------ */
+
+.hours {
+  width: 500px;
+  height: 350px;
+  background-color: #b6a2dd;
+  text-align: center;
+}
+
+.footerheadings {
+  font-family: "Spartan";
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 30px;
+  color: rgb(216, 35, 96);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.openingtimes {
+  font-family: "Spartan";
+  font-size: 13px;
+  color: rgb(80, 78, 78);
+  text-decoration: underline #e970b0;
+}
+
+.times {
+  margin-bottom: 13px;
+}
+
+/* -------------- social media icons ---------------------------------- */
+
+.allicons {
+  padding-top: 40px;
+  padding-right: 40px;
+}
+.socialmedia {
+  width: 500px;
+  height: 350px;
+  background-color: #c6b2ee;
+  padding-left: 10px;
+}
+
+.socialMediaIcons {
+  margin-top: 30px;
+  border: none;
+  background: none;
+  font-size: 40px;
+  color: rgb(182, 180, 180);
+  transition: 0.3s;
+  outline: none;
+}
+
+.socialMediaIcons:hover {
+  color: #e970b0;
+  text-shadow: 0px 0px 5px #e970b0;
+}
+
+/* ......... submit form .............. */
+.smallInput {
+  font-family: "Share Tech Mono", monospace;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 15px;
+  padding: 5px;
+  width: 200px;
+  caret-color: white;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  /* box-shadow: 0px 3px 40px rgb(255, 0, 0); */
+}
+
+.messageInput {
+  font-family: "Share Tech Mono", monospace;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 15px;
+  padding: 5px;
+  width: 300px;
+  caret-color: white;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.submitBtn {
+  background-color: #e970b0;
+  font-size: 20px;
+  font-family: "Share Tech Mono", monospace;
+  outline: none;
+  border: 1px solid white;
+  transition: 0.3s;
+  width: 80px;
+  color: rgb(177, 174, 174);
+}
+
+.submitBtn:hover {
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------------------ find us ------------------------------------- */
+
+.contactinfo {
+  width: 500px;
+  height: 350px;
+  background-color: #d6c8f3;
+  text-align: center;
+}
+
+.address {
+  margin-bottom: 10px;
+  font-family: "Spartan";
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(65, 64, 64);
+}
+
+.google_Map {
+  box-shadow: 0px 0px 10px #8a8789;
+  border-radius: 10px;
+}
+
+/* -----------------bottom------------------------- */
+
+.bottom {
+  background-color: #f1b9d7;
+  border-top: 3px solid rgb(226, 224, 224);
+  font-family: "Spartan";
+  font-size: 10px;
+  color: rgb(65, 64, 64);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}

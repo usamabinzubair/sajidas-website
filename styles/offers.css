@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One&display=swap");
+
+body {
+  margin: 0;
+}
+.eyelogo {
+  height: 140px;
+  /* border: 3px solid rgb(212, 208, 208); */
+}
+
+.sajidalogo {
+  margin-top: 20px;
+  width: 650px;
+  height: 100px;
+}
+
+.sajida {
+  font-family: "Spartan";
+  font-size: 70px;
+  color: #e970b0;
+  text-shadow: 10px 20px 10px rgb(212, 208, 208);
+  transition: 0.3s;
+}
+
+.sajida:hover {
+  text-shadow: 10px 30px 10px #e970b0;
+}
+
+.laserhair {
+  font-size: 18px;
+  font-family: "Spartan";
+  color: gray;
+  text-shadow: 5px 10px 5px rgb(212, 208, 208);
+  text-align: end;
+  margin-right: 80px;
+}
+.alllogos {
+  display: flex;
+  justify-content: space-between;
+
+  /* border-bottom: 3px solid rgb(212, 208, 208); */
+}
+
+/* -------------- social media icons ---------------------------------- */
+
+.allicons {
+  padding-top: 40px;
+  padding-right: 40px;
+}
+.socialmedia {
+  width: 500px;
+  height: 350px;
+  background-color: #c6b2ee;
+  padding-left: 10px;
+}
+
+.socialMediaIcons {
+  margin-top: 30px;
+  border: none;
+  background: none;
+  font-size: 40px;
+  color: rgb(182, 180, 180);
+  transition: 0.3s;
+  outline: none;
+}
+
+.socialMediaIcons:hover {
+  color: #e970b0;
+  text-shadow: 0px 0px 5px #e970b0;
+}
+/* ............ contact bar........... */
+
+.contactBar {
+  font-family: "Spartan";
+  background-color: rgb(241, 161, 241);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 800;
+  display: flex;
+  height: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* ...............................navbar..................................... */
+
+.links {
+  font-family: "Spartan";
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  outline: none;
+  background: none;
+  border: none;
+  transition: 0.2s;
+  color: rgb(88, 87, 87);
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.links:hover {
+  text-shadow: 3px 3px 3px #e970b0;
+  background-color: #e970b0;
+  color: white;
+}
+
+.allbtns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 3px solid #eea1ca;
+    box-shadow: 0px 3px 0px #eea1ca; */
+  background-color: #b6a2dd;
+}
+
+.pageheadingfacial {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  background-color: #f0cedf;
+  font-family: "Spartan";
+  padding: 50px;
+  color: white;
+  text-shadow: 10px 10px 2px #b6a2dd;
+}
+
+.comingSoon {
+  font-family: "Spartan";
+  font-size: 90px;
+  text-align: center;
+  color: rgb(245, 151, 245);
+  margin-top: 100px;
+}
